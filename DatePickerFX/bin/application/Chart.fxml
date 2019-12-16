@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="450.0" prefWidth="450.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="application.ChartController">
+   <children>
+      <PieChart fx:id="pe" layoutX="15.0" layoutY="14.0" prefHeight="366.0" prefWidth="420.0" />
+      <Button layoutX="186.0" layoutY="391.0" mnemonicParsing="false" onAction="#showGraph" text="Load Graph" />
+   </children>
+</AnchorPane>
