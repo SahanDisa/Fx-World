@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="428.0" prefWidth="463.0" style="-fx-background-color: #AAAAAA;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Label fx:id="lblstatus" layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="171.0" text="NumberProperty">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="52.0" mnemonicParsing="false" onAction="#BtnClick" prefHeight="26.0" prefWidth="137.0" style="-fx-background-color: #23AC82;" text="Button">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="254.0" layoutY="52.0" mnemonicParsing="false" onAction="#Btn2Click" prefHeight="26.0" prefWidth="137.0" style="-fx-background-color: #23AC82;" text="Button">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <ProgressBar fx:id="proA" layoutX="25.0" layoutY="142.0" prefHeight="38.0" prefWidth="399.0" progress="0.2" />
+      <ProgressIndicator fx:id="proB" layoutX="108.0" layoutY="234.0" maxHeight="300.0" maxWidth="300.0" minWidth="200.0" prefHeight="106.0" prefWidth="200.0" progress="0.0" />
+   </children>
+</AnchorPane>
