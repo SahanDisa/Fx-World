@@ -1,5 +1,7 @@
 # Fx-World
-Java Fx Projects in day today 
+Java Fx is a popular software application platform for java swing because of it's GUI library for Java SE
+
+This repository maintainns fx core application with examples.
 
 # What Is JavaFX?
 JavaFX is a set of graphics and media packages that enables developers to design, create, test, debug, and deploy rich client applications that operate consistently across diverse platforms.
